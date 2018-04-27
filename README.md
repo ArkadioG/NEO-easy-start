@@ -18,3 +18,7 @@ Tutorial will use **Python** for smart contract development. It may introduce ot
 
 **If you are a C# developer** i strongly recommend to go with tutorial written by Michael Hermann [NEO .net Quick Start](https://github.com/mwherman2000/neo-dotnetquickstart/blob/master/EN-us/README.md)
 
+
+## Contribution
+
+You can contribute to this project at any time. Fork this repository, make changes and create pull request.
