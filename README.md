@@ -1,6 +1,4 @@
-# NEO beIT
-
-Materiały z prezentacji na konferencji beIT
+# NEO Smart Contracts with Python Quick Start
 
 ## Opis warsztatu
 
@@ -9,49 +7,40 @@ W części teoretycznej warsztatu poznasz pojęcia związane z blockchainem, zas
 
 \* *inteligentny kontrakt najprościej wytłumaczyć jako zwykły progam, który wykonuje zadania w zależności od inputu (**jeśli A to zrób B**), w połączeniu z cechami jakimi charakteryzuje się blockchain, inteligentny kontrakt stwarza niezwykłe możliwości do automatyzowania zadań, które obecnie wymagają zaufanego pośrednika (notariusza, banku itp.).*
 
-## Przygotowanie do warsztatu
-
-### Aktualizacja: ***21-04-2018 23:15***
-
-**Sprawdź na kilka dni przed warsztatem czy kroki dotyczące instalacji nie zostały zaktualizowane. W razie problemów z instalacją/przygotowaniem privnetu możesz zgłosić buga używając opcji w github.**
+## Prerequisites
 
 
-* Wymagany system: Win*/**Linux**/OSx  
-    preferowany jest Linux - jeśli używasz innego systemu to zainstaluj Linuxa w maszynie wirtualnej
+* Operating system: Win*/**Linux**/OSx  
+    Linux is preferred
     
-* Zainstaluj **Python 3.6**:  
+* Install **Python 3.6**:  
   <https://www.python.org/downloads/>
     
-  * Windows - zobacz szczegóły [tutaj](python_win.md)
-  * Linux - zobacz szczegóły [tutaj](python_unix.md)
+  * Windows - details [here](python_win.md)
+  * Linux - details [here](python_unix.md)
 
-* Zainstaluj i uruchom **Docker**:
+* Install and run **Docker**:
   
   * Windows: <https://docs.docker.com/docker-for-windows/install/>  
-  **UWAGA** musisz mieć zainstalowany HyperV, aby zainstalować Docker'a
+  **CAREFUL** you need HyperV to install docker
   * Ubuntu/Debian/Fedora: <https://docs.docker.com/install/linux/docker-ce/ubuntu/>
-  * Mint: szczegóły [tutaj](docker_mint.md)
+  * Linux Mint: details [here](docker_mint.md)
   * Mac: <https://docs.docker.com/docker-for-mac/install/>
 
-* zainstaluj **Docker Compose**
-    * Win: już zainstalowane razem z Dockerem
-    * Linux: szczegóły [tutaj](compose_linux.md)
+* Install **Docker Compose**
+    * Win/Mac: already installed with docker
+    * Linux: details [here](compose_linux.md)
 
-* sprawdź czy docker jest uruchomiony <https://docs.docker.com/get-started/#test-docker-installation>
+* check if docker is running <https://docs.docker.com/get-started/#test-docker-installation>
 
-  * wpisz w terminalu/wierszu poleceń komendę: `docker --version`
-  * możesz dodatkowo zainstalować testowy kontener:  
-    wpisz komendę `docker run hello-world` - docker pobierze, zainstaluje i uruchomi testowy obraz
-  * możesz wylistować obrazy: `docker image ls`
-  * możesz wylistować kontenery: `docker container ls -a`
+  * run command: `docker --version`
+  * additionally, you can run test container `docker run hello-world`
+  * listing images: `docker image ls`
+  * listing containers: `docker container ls -a`
   
-* Zainstaluj sobie dowolne IDE do pracy z Pythonem:
+* Install any IDE to work with Python:
     * [PyCharm](https://www.jetbrains.com/toolbox/app/?fromMenu)
     * [Visual Studio Code](https://code.visualstudio.com/)
-    * coś innego
+    * anything else
     
-#### [Kolejny krok - instalacja blockchain NEO](neo-local.md) 
-
-## Slajdy
-
-Slajdy pdf z warsztatu dostępne są [tutaj](slajdy.pdf)
+#### [Next Step - installing private blockchain NEO](neo-local.md) 
